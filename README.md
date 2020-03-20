@@ -77,6 +77,12 @@ make
 <make test>
 make install
 ```
+### Windows Build
+
+mingw-get install gmp
+mingw-get install bzip
+mingw-get install zlib
+cmake .. -G "MinGW Makefiles"
 
 #### CMake Configuration Options
 
